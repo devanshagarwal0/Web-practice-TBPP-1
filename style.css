@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+header{
+    position: absolute;
+}
+p{
+    font-size: 20px;
+}
+.nav{
+    height: 5vh;
+    /* background-color: rgb(191, 204, 200); */
+    /* padding: 5px; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+.rnav{
+    height: 100%;
+    /* background-color: rgb(66, 72, 70); */
+
+}
+.lnav{
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(66, 72, 70); */
+    display: flex;
+    gap:10px;
+    
+
+}
+.lnav a:hover{
+    background-color: rgb(172, 168, 168);
+}
+.rnav:hover{
+    background-color: red;
+}
+a{
+    /* background-color: antiquewhite; */
+    padding: 6px;
+    color: #857272;
+    text-decoration: none;
+    
+}
+.heroimg{
+    height: 50vh;
+    display: flex;
+    background-image: url(WhatsApp\ Image\ 2024-10-16\ at\ 19.29.44_ae54454a.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    
+}
+.heroimg h1{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    letter-spacing: 10px;
+}
+.heroimg img{
+    height: 50%;
+    width: 100%;
+}
+.aboutme{
+    margin-top: 100px;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    line-height: 30px;
+    text-align: center;
+}
+.aboutme h1{
+    /* margin-top: 40px; */
+    margin: 20px;
+}
+.myname{
+    margin-top: 100px;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    line-height: 30px;
+    text-align: center;
+    display: flex;
+    
+}
+.myname div img{
+    margin-top:20px ;
+    height: 300px;
+}
+.myname p{
+    margin-left:50px ;
+    height: 250px;
+    
+}
+.goodAt h4{
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.goodAt p{
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+.goodAt{
+    margin-top: 100px;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    line-height: 30px;
+    
+    line-height: 40px;
+}
+.outer{
+    height: 30px;
+    width: 70vw;
+    background-color: #f5f5f5;
+}
+.pinner{
+    width: 90%;
+    height: 30px;
+    background-color: rgb(106, 106, 106);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+}
+.winner{
+    width: 85%;
+    height: 30px;
+    background-color: rgb(106, 106, 106);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+}
+.phinner{
+    width: 75%;
+    height: 30px;
+    background-color: rgb(106, 106, 106);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+}
