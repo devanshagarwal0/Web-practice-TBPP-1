@@ -1,10 +1,13 @@
 *{
     padding: 0;
     margin: 0;
-    
+    font:  sans-serif;
+    /* color: #a6a6a6; */
 }
 header{
     position: absolute;
+    width: 100%;
+
 }
 p{
     font-size: 20px;
@@ -15,6 +18,7 @@ p{
     /* padding: 5px; */
     display: flex;
     justify-content: space-between;
+    /* position: fixed; */
     
 }
 .rnav{
@@ -138,4 +142,145 @@ a{
     text-align: center;
     font-size: 20px;
     font-weight: 900;
+}
+
+.break{
+    display: flex;
+    justify-content: space-around;
+    background-color: #7f7f7f;
+    margin-top: 60px;
+    padding: 50px;
+    color: rgb(244, 244, 244);
+    
+}
+.portfolioimg{
+    background-image: url(Screenshot\ 2024-10-16\ 220028.png);
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(244, 244, 244);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.portfolioimg p{
+    font-size: 40px;
+    letter-spacing: 10px;
+}
+
+.mywork h2{
+    margin: 30px;
+}
+.mywork{
+    margin-top: 80px;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    line-height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+.mywork img{
+    height: 170px;
+
+}
+.myworkimg{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.myworkimg div :hover{
+    background: #000;
+}
+.loadmore{
+    text-align: center;
+    margin: 50px;
+}
+.loadmore button{
+    padding: 15px 20px;
+    border: none;
+}
+.loadmore button:hover{
+    cursor: pointer;
+    background: #8f8f8f;
+}
+
+
+.contactimg{
+    background-image: url(Screenshot\ 2024-10-16\ 224051.png);
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter:grayscale(50%);
+}
+.contactimg p{
+    font-size: 40px;
+    letter-spacing: 10px;
+}
+
+.whereiwork img{
+    height: 180px;
+}
+
+.whereiwork{
+    margin-top: 80px;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    line-height: 30px;
+    /* text-align: center; */
+    line-height: 30px;
+    
+}
+.whereiwork .head{
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.connect{
+    display: flex;
+    justify-content: space-around;
+}
+form{
+    line-height: 50px;
+}
+input{
+    height: 35px;
+    width: 47%;
+    padding: 3px;
+}
+#msg{
+    width: 100%;
+}
+form button{
+    height: 40px;
+    width: 180px;
+    margin-left: 300px;
+    background-color: #000;
+    color: #ffffff;
+}
+form button:hover{
+    background-color: #aaaaaa;
+    color: #000000;
+    border: none;
+}
+footer{
+    margin-top: 200px;
+    height: 30vh;
+    background: #797979;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer a{
+    color: #7d7d7d;
+    background-color: #dfdfdf;
+   
 }
