@@ -250,19 +250,19 @@ a{
 }
 form{
     line-height: 50px;
-}
-input{
-    height: 35px;
-    width: 47%;
-    padding: 3px;
+    display: grid;
+    grid-template-columns: repeat(2,300px);
+    grid-template-rows: repeat(3,40px);
+    gap: 3px;
 }
 #msg{
-    width: 100%;
+    grid-column: 1/span 2;
 }
 form button{
     height: 40px;
     width: 180px;
-    margin-left: 300px;
+    grid-column: 2;
+    margin-left: 120px;
     background-color: #000;
     color: #ffffff;
 }
@@ -271,6 +271,8 @@ form button:hover{
     color: #000000;
     border: none;
 }
+
+
 footer{
     margin-top: 200px;
     height: 30vh;
